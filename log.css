@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color:white
+    
+}
+.box{
+    background-color:rgb(59, 59, 255);
+  margin-top: 5%;
+  width:300px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+}
+.image{
+  display: flex;
+  justify-content: space-evenly;
+}
+h3{
+  text-align: center;font-size: 25px;margin-top: 20%;
+}
+label{
+  display: block;margin-left: 13%;font-size: 12px;
+  margin-top: 15px;
+}
+.in >input{
+  border:none;width:70%;margin-left: 13%;height:30px;border-radius: 3px;background-color: rgb(98, 171, 231);
+}
+img{
+  height:40px;
+ 
+  object-fit: contain;
+  border-radius: 50px;
+}
+
+::placeholder{
+  color: rgb(157, 204, 204);
+  position: absolute;
+  margin-left: 15%;
+  margin-top: 4%;
+  font-size: 11px;
+}
